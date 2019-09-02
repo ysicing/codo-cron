@@ -5,7 +5,7 @@ on:
     - cron: '0 4 */1 * *'
 jobs:
   build:
-    name: build sdk docker image
+    name: build docker image
     runs-on: 	ubuntu-latest
     steps:
     - uses: actions/checkout@v1
